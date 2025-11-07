@@ -3,26 +3,27 @@
 int a,b,c;
 
 int main(){
-	printf("Enter first digit: ");
-	scanf("%d",&a);
-	printf("Enter Second digit: ");
-	scanf("%d",&b);
-	printf("Enter Third digit: ");
-	scanf("%d",&c);
+	cout<<"Enter first digit: ";
+	cin>>a
+	cout<<"Enter Second digit: ";
+	cin>>b
+	cout<<"Enter Third digit: ";
+	cin>>c
 	
 	if(a>b){
-	if(a>c){
-		printf("First digit is larger");
+		if(a>c){
+			cout<<"First digit is larger";
 		
+		}
+		else{
+			cout<<"Third digit is larger";
+		}
 	}
 	else{
-		printf("Third digit is larger");
+		if(b>c){
+			cout<<"Second digit is larger";
+		}
+		else{
+			cout<<"Third digit is larger";
+		}
 	}
-	}
-	else if(b>c){
-		printf("Second digit is larger");
-	}
-	else{
-		printf("Third digit is larger");
-	}
-}
