@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std ;
 
 int main(){
 	int i, j;
@@ -6,9 +7,9 @@ int main(){
 	
 	for(i=1;i<=5;i++){
 		for(j=1; j<=i; j++){
-			printf("%c",ch);
+			cout<<ch;
 			ch++;
 		}
-		printf("\n");
+		cout<<endl;
 	}
 }
