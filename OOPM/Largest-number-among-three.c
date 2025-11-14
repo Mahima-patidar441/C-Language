@@ -1,14 +1,15 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
-int a,b,c;
 
 int main(){
+    int a , b , c;
 	cout<<"Enter first digit: ";
-	cin>>a
+	cin>>a;
 	cout<<"Enter Second digit: ";
-	cin>>b
+	cin>>b;
 	cout<<"Enter Third digit: ";
-	cin>>c
+	cin>>c;
 	
 	if(a>b){
 		if(a>c){
@@ -27,3 +28,5 @@ int main(){
 			cout<<"Third digit is larger";
 		}
 	}
+	}
+	
